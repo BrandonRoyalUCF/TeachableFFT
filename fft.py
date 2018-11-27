@@ -122,10 +122,10 @@ def toComplex(A):
         C.append(Complex(A[i]))
     return C
 
-#Definition: Multiplies each index of two arrays together
-#Parameters: A = the first array
-#            B = the second array
-#Returns: C = a new array in which each index i of C is the product of A[i] and B[i]
+#Definition:  Given two arrays of points, multiplies two points together held in each index of the array
+#Parameters: A = the first array of points
+#            B = the second array of points
+#Returns: C = a new array in which each index i of C is the product of the point A[i] and the point B[i]
 def mult(A, B):
     C = []
     for i in range(0, len(A)):
